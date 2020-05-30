@@ -2,6 +2,8 @@
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
 \usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage{biblatex}
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \name{Dmitry Doronin}
@@ -18,20 +20,22 @@
 
 \begin{rSection}{Front-End Tech Lead / Scala + Akka + Spark / Rust}
 
-9 years of professional software development, proficient in Scala, TypeScripts, Rust, Python, C\#.
+9 years of professional software development, proficient in Scala, TypeScript, Rust, Python, C\#.
 
-\item Hands on experience with:
-\item - front-end libraries and frameworks: 
-React, RxJS, Vue, Backbone, AngularJS;
-\item - back-end libraries and frameworks: 
-Akka, NodeJS Express, Python Flask, .Net stack;
-\item - big data frameworks and tools:
-Spark, Hadoop, Airflow;
-\item - databases:
-MongoDB, MsSQL, PostgreSQL.
+\item Hands-on experience with:
+\begin{itemize}
+    \item front-end libraries and frameworks: 
+          React, RxJS, Vue, Backbone, AngularJS;
+    \item back-end libraries and frameworks: 
+          Akka, NodeJS Express, Python Flask, .Net stack;
+    \item big data frameworks and tools:
+          Spark, Hadoop, Airflow;
+    \item databases:
+          MongoDB, MsSQL, PostgreSQL.
+\end{itemize}
 
-\item Author of Reactive Hooks library for React: \url{https://github.com/reonomy/reactive-hooks}
-\item Technical blogs on Medium: \url{https://medium.com/@dmitrydoronin}
+\item Author of Reactive Hooks library: \url{https://github.com/reonomy/reactive-hooks}
+\item Technical writer on Medium: \url{https://medium.com/@dmitrydoronin}
 
 \end{rSection}
 
@@ -41,13 +45,12 @@ MongoDB, MsSQL, PostgreSQL.
 
 \begin{rSection}{Work Experience}
 
-\begin{rSubsection}{Software Engineer, Reonomy, \url{http://reonomy.com}}{Feb 2019 till now}{Front-End Tech Lead, Back-End Engineer, Data Engineer}{}
+\begin{rSubsection}{Software Engineer, Reonomy, \url{http://reonomy.com}}{Feb 2019 till now}{Roles: Front-End Tech Lead, Back-End Engineer, Data Engineer}{}
 \item Boosted front-end web stack from AngularJS and server-side rendering to React 16, RxJS, TypeScript.
 This work was featured in the article "The Road to React: Building the Reactive Hooks Library".
 \url{https://www.reonomy.com/blog/post/reactive-hooks}
-\item Initiated data jobs development shift toward compile-time checks, 
-Scala Type System, Functional Programming, Spark Dataset API and GraphX.
-\item Contributed critical parts of the data knowledge graph.
+\item Initiated spark data jobs development shift toward Dataset API, GraphX and Functional Programming.
+\item Implemented the ownership knowledge graph for the ownership portfolio project.
 \item Introduced Grafana based monitoring tools, automated data validation steps.
 \item Improved data pipeline automation with airflow.
 \item Developed REST endpoints in Python Flask.
@@ -56,44 +59,47 @@ Tech stack: Scala, Spark, Python, Flask, React, TypeScript, RxJS, Airflow, Elast
 \end{rSubsection}
 
 \begin{rSubsection}{Lead Software Engineer, EPAM Systems, \url{http://www.epam.com}}{Nov 2018 - Feb 2019}{Contractor at Scripps Networks Interactive / Front-End Tech Lead}{}
-\item Leaded web application front-end development for Food Network.
-\item Developed automated deployment scripts (Vue CLI 3 Plugins).
+\item Leaded web application front-end development for Food Network + Vue CLI 3 Plugins for CI/CD.
 
 Demo: \url{https://www.foodnetwork.com/meal-match}
 
-Tech stack: Vue, NodeJS, Ruby, Java, AWS.
+Tech stack: JavaScript, Vue, NodeJS, Ruby, Java, AWS.
 \end{rSubsection}
 
 \begin{rSubsection}{Lead Software Engineer, EPAM Systems, \url{http://www.epam.com}}{Jan 2016 - Oct 2019}{Contractor at Goldman Sachs / Full-Stack Developer}{}
-\item May 2018 - Oct 2019, Marquee, Trading and risk-management platform.
-\item Jan 2016 - Apr 2019, SIMON, Structured products investment platform.
-\item Participated in architecture discussions, implemented critical parts.
-\item Developed key REST endpoints available outside of the GS perimeter.
+\item[] \textbf{May 2018 - Oct 2019, Marquee, Trading and risk-management platform.}
+\item Development of the real-time FX order execution platform.
 
-Tech stack: Scala, Akka Actors, MongoDB, Backbone, React, TypeScript, MobX, Protractor.
+Tech stack: WebSockets, React, TypeScript, MobX.
+
+\item[] \textbf{Jan 2016 - Apr 2019, SIMON, Structured products investment platform.}
+\item Architecture design and development of the real-time investment platform.
+\item Automated end-to-end testing with Protractor.
+
+Tech stack: Scala, Akka, WebSockets, MongoDB, BackboneJS, React, TypeScript, Protractor.
 \end{rSubsection}
 
 
 \begin{rSubsection}{Lead Software Engineer, EPAM Systems, \url{http://www.epam.com}}{Aug 2014 - Dec 2015}{Contractor at Thomson Reuters / Team Lead, Key Front-End Developer}{}
 \item Leaded a team of 4 software developers and 2 QAs.
 \item Developed Eikon Apps: Portfolio Dashboard, Fundamentals, Aggregate Report and Grid Report.
-\item Key contributor to the proprietary virtualized grid library.
-\item Successfully accomplished performance tuning for intensive calculations on FE with Web Workers.
+\item Key contributor to the proprietary virtualized grid library used across TR products.
+\item Performance tuning for intensive calculations on FE with Web Workers.
 \item Responsible for sprint planning, tasks assignments, progress tracking and delivery.
 
 Tech stack: JavaScript, AngularJS, LESS, NodeJS, Gulp, Bower, ASP .NET Web API 2, Silverlight.
 \end{rSubsection}
 
 \begin{rSubsection}{Senior Software Engineer, EPAM Systems, \url{http://www.epam.com}}{Sep 2011 - Jul 2014}{Contractor at Telligent / Full-Stack Key Developer}{}
-\item Participated in the core features development of the community CMS platform "Community Server".
-\item Developed integration with MsSharePoint via Telligent extensions and Scripted Widgets.
+\item Core features development for Telligent Community Server.
+\item Addons development for Ms SharePoint integration via Telligent extensions and Scripted Widgets.
 
 Tech stack:  ASP .Net, WinForms, WCF, NUnit, Windows Services, MsSQL, proprietary Telligent Scripted API and Scripted Widgets, ES5, JQuery, HTML5, CSS3, LESS.
 \end{rSubsection}
 
 
 \begin{rSubsection}{Software Engineer, EPAM Systems, \url{http://www.epam.com}}{Jun 2011 - Aug 2011}{Full-Stack Developer}{}
-\item Internal platform development.
+\item Internal proprietary services development.
 
 Tech stack: C\#, .Net WPF, WCF, MsSQL.
 \end{rSubsection}
@@ -110,14 +116,36 @@ Tech stack: C\#, .Net WPF, WCF, MsSQL.
 
 Master's degree in Physics.
 
-Author of publications in physics, mathematics and computer science:
-\item \url{https://ieeexplore.ieee.org/document/5632593/}
-\item \url{https://ieeexplore.ieee.org/document/5632591/}
+\begin{thebibliography}{1}
+    \bibitem{latexcompanion} 
+    A.N.Savin, I.A.Nakrap, D.M.Doronin
+    \textit{The equivalent circuit parameters calculation of a coupled cavity chain using electrodynamic characteristics}
+    IEEE, 2010.
+
+    \url{https://ieeexplore.ieee.org/document/5632593}
+
+    \bibitem{latexcompanion} 
+    A.N.Savin, I.A.Nakrap, D.M.Doronin
+    \textit{The high-order optimal design of experiment development on the base of regular simplex for the slow-wave structures characteristics modeling}
+    IEEE, 2010.
+
+    \url{https://ieeexplore.ieee.org/document/5632591}
+
+
+    \bibitem{latexcompanion} 
+    M.V.Davidovich, A.N.Savin, D.M.Doronin
+    \textit{Electromagnetic properties of metallic photonic crystals}
+    IEEE, 2010.
+
+    \url{https://ieeexplore.ieee.org/document/5632577}
+
+\end{thebibliography}
+
+Author of publications in electrodynamics, mathematics and computer science:
 \item \url{https://www.researchgate.net/scientific-contributions/2013742207_D_M_Doronin}
 \item \url{https://elibrary.ru/item.asp?id=15117920}
 
 \end{rSubsection}
-
 \end{rSection}
 
 
